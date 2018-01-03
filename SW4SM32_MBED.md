@@ -32,4 +32,4 @@ Most boards have a RUN / ISP DIP switch, this switch can be used in the eventual
 
 ### FAST CHARGE switch / solder jumper:
 
-The Fast Charge DIP switch allows sets the LiPo battery charging curcuit to maximum current when set to **ON** and to standard  setting when set to **OFF**.
+When set to **ON** the **fast charge** DIP switch allows the maximum current current charging to LiPo (1000mA), by default (set to **OFF**) charging current is 100mA.
