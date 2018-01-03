@@ -11,9 +11,9 @@
 ### STLink connection and configuration:
 
 On windows you should install the STLink driver, you can do so by installing the [STLink utility](http://www.st.com/en/development-tools/stsw-link004.html). On Mac and Linux no driver installation is usually required.
-We assume the STLink debugger is connected via **GND VCC DIO CLK**, with **RESET** line omitted.
-If you want to use the reset line change reset mode to : **hardware reset** in **debug/run configuration** as explained below. 
-_N.B. unless special cases there is no interrest to use **reset** line, we advise to connect **GND VCC DIO CLK** only._ 
+We assume the STLink debugger is connected via **GND VCC DIO CLK**, with **reset** line omitted.
+If you want to use the **reset** line change reset mode to : **hardware reset** in **debug/run configuration** as explained below. 
+_N.B. unless special cases there is no need to use **reset** line, we advise to connect **GND VCC DIO CLK** only._ 
 
 
 ### For the first run of the project run/debug configuration has to be setup:
