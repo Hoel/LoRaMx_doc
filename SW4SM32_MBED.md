@@ -27,7 +27,7 @@ _N.B. unless special cases there is no interrest to use **reset** line, we advis
 
 ### RUN / ISP switch:
 
-Most boards have a RUN / ISP DIP switch, this switch can be used in the eventuality you need to use the internal bootlader from UART since some variants only offer internal (read only ROM) bootloader on UART (namely STM32F103, STM32L151) to do so you can set the RUN / ISP switch to **OFF** (ISP). IN all other cases, we advise to always let the RUN / ISP switch set to **ON**, this will not interfere the upload nor debug when STlink is connected.
+Most boards have a RUN / ISP DIP switch, this switch can be used in the eventuality you need to use the internal bootlader from UART since some variants only offer internal (read only ROM) bootloader on UART (namely STM32F103, STM32L151) to do so you can set the RUN / ISP switch to **OFF** (ISP). In all other cases, we advise to always let the RUN / ISP switch set to **ON**, this will not interfere the upload nor debug when STlink is connected.
 
 
 ### FAST CHARGE switch / solder jumper:
