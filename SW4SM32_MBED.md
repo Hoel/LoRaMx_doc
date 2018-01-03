@@ -32,4 +32,4 @@ Most boards have a RUN / ISP DIP switch, this switch can be used in the eventual
 
 ### FAST CHARGE switch / solder jumper:
 
-When set to **ON** the **fast charge** DIP switch allows the maximum current current charging to LiPo (1000mA), by default (set to **OFF**) charging current is 100mA.
+When set to **ON** the **fast charge** DIP switch allows maximum current current charging to LiPo (1000mA), by default (set to **OFF**) charging current is 100mA. Some LoRaMx boards have a solder jumper instead of a DIP switch, solder jumper open charging current is 100mA, solder jumper closed it is 1000mA. 
